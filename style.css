@@ -154,15 +154,13 @@ hr {
     
 }
 
-#transport_p{ 
-     
+#transport_p{  
+    min-width: 300px; 
     margin-left: 15%;
-    
-  
 }
 
 .transportation img{ 
-    width: 80%;
+    width: 100%;
     display: block;
     border-radius: 40px;  
 }
