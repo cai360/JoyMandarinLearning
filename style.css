@@ -9,7 +9,7 @@ header{
 header h1{
     color:#eaf1f8;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 button:hover {
@@ -28,6 +28,7 @@ body{
     font-weight: 400;
     line-height: 1.5;
     margin: 0%;
+    padding: 0%;
     text-align: left;
 }
 
@@ -75,7 +76,7 @@ nav button {
     border: none;
     color: white;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     cursor: pointer;
     border-radius: 5px;
     margin: 0 0.7rem;
@@ -91,6 +92,7 @@ a{
     text-decoration: none;
     font-weight: 400;
 }
+
 a:hover{
     text-decoration:underline;
 }
@@ -105,7 +107,8 @@ a:hover{
 
 
 .section {
-    padding: 0.5rem 2rem 1rem 2rem;
+    padding: 2rem 5%;
+    /* padding: 0.5rem 2rem 1rem 2rem; */
 }
 
 .section:hover {
@@ -116,12 +119,12 @@ a:hover{
 h2 {
     font-family: 'Montserrat', sans-serif;
     margin-left: 5%;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
 }
 
 p {
     margin-left: 5%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
@@ -150,13 +153,12 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; 
-    
+    width: 100%;   
 }
 
 #transport_p{  
     min-width: 300px; 
-    margin-left: 15%;
+    padding-left: 15%;
 }
 
 .transportation img{ 
@@ -187,7 +189,7 @@ hr {
     display: flex;
     width: 50%;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0.5rem;
     justify-content: space-around;
 }
 
@@ -214,9 +216,6 @@ hr {
 }
 
 
-
-
-
 .sentences {
     display: flex;
     align-items: center; /* Vertically align items */
@@ -238,7 +237,7 @@ hr {
 
 #sentences_S1{
     margin-left: 5%;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     border: none;
     
 }
@@ -249,7 +248,7 @@ button{
     background-color: #d9edff;
     border: 1px solid transparent;
     border-radius: 0.3rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.5;
     margin-top: 20px;
@@ -262,7 +261,7 @@ button{
 
 .options{
     margin-left: 5%;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 #sc_question {
@@ -285,13 +284,13 @@ button{
 
 #SQFeedback{
     margin-left: 5%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
 input[type="radio"]{
     vertical-align: middle;
-    transform: scale(2); 
+    transform: scale(1.5); 
 }
 
 label{
@@ -320,8 +319,8 @@ label{
 
 table {
     table-layout: fixed ;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     min-width: 300px;
     min-height: 200px;
   }
@@ -361,9 +360,14 @@ table #directionMap tr td{
 /* Mutiple question  Map*/
 
 input[type="checkbox"]{
-    transform: scale(3.5); 
+    transform: scale(1.8); 
     vertical-align: middle;
 }
+
+#MutipleChoice .tobeflex{
+    flex-wrap:wrap;
+}
+
 
 .tobeflex{
     display: flex;
@@ -378,12 +382,12 @@ input[type="checkbox"]{
 
 
 #Map2{    
-    white-space: nowrap;
+    white-space: wrap;
     background-color: rgb(235, 198, 149);
     color: rgb(53, 1, 1);
     text-align: center;
     line-height: 10px;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: 300;
     padding: 0% auto;
     margin: 3px auto;
